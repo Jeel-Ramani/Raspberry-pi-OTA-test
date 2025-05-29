@@ -1,0 +1,779 @@
+2025-05-26T18:24:51: PM2 log: ===============================================================================
+2025-05-26T18:24:51: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2025-05-26T18:24:51: PM2 log: Time                 : Mon May 26 2025 18:24:51 GMT+0530 (India Standard Time)
+2025-05-26T18:24:51: PM2 log: PM2 version          : 6.0.6
+2025-05-26T18:24:51: PM2 log: Node.js version      : 18.20.8
+2025-05-26T18:24:51: PM2 log: Current arch         : arm64
+2025-05-26T18:24:51: PM2 log: PM2 home             : /home/UbiqCM4/.pm2
+2025-05-26T18:24:51: PM2 log: PM2 PID file         : /home/UbiqCM4/.pm2/pm2.pid
+2025-05-26T18:24:51: PM2 log: RPC socket file      : /home/UbiqCM4/.pm2/rpc.sock
+2025-05-26T18:24:51: PM2 log: BUS socket file      : /home/UbiqCM4/.pm2/pub.sock
+2025-05-26T18:24:51: PM2 log: Application log path : /home/UbiqCM4/.pm2/logs
+2025-05-26T18:24:51: PM2 log: Worker Interval      : 30000
+2025-05-26T18:24:51: PM2 log: Process dump file    : /home/UbiqCM4/.pm2/dump.pm2
+2025-05-26T18:24:51: PM2 log: Concurrent actions   : 2
+2025-05-26T18:24:51: PM2 log: SIGTERM timeout      : 1600
+2025-05-26T18:24:51: PM2 log: Runtime Binary       : /usr/bin/node
+2025-05-26T18:24:51: PM2 log: ===============================================================================
+2025-05-26T18:24:51: PM2 log: App [myserver:0] starting in -fork mode-
+2025-05-26T18:24:51: PM2 log: App [myserver:0] online
+2025-05-26T18:24:52: PM2 log: App [static-server:1] starting in -fork mode-
+2025-05-26T18:24:52: PM2 log: App [static-server:1] online
+2025-05-26T18:26:56: PM2 log: ===============================================================================
+2025-05-26T18:26:56: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2025-05-26T18:26:57: PM2 log: Time                 : Mon May 26 2025 18:26:57 GMT+0530 (India Standard Time)
+2025-05-26T18:26:57: PM2 log: PM2 version          : 6.0.6
+2025-05-26T18:26:57: PM2 log: Node.js version      : 18.20.8
+2025-05-26T18:26:57: PM2 log: Current arch         : arm64
+2025-05-26T18:26:57: PM2 log: PM2 home             : /home/UbiqCM4/.pm2
+2025-05-26T18:26:57: PM2 log: PM2 PID file         : /home/UbiqCM4/.pm2/pm2.pid
+2025-05-26T18:26:57: PM2 log: RPC socket file      : /home/UbiqCM4/.pm2/rpc.sock
+2025-05-26T18:26:57: PM2 log: BUS socket file      : /home/UbiqCM4/.pm2/pub.sock
+2025-05-26T18:26:57: PM2 log: Application log path : /home/UbiqCM4/.pm2/logs
+2025-05-26T18:26:57: PM2 log: Worker Interval      : 30000
+2025-05-26T18:26:57: PM2 log: Process dump file    : /home/UbiqCM4/.pm2/dump.pm2
+2025-05-26T18:26:57: PM2 log: Concurrent actions   : 2
+2025-05-26T18:26:57: PM2 log: SIGTERM timeout      : 1600
+2025-05-26T18:26:57: PM2 log: Runtime Binary       : /usr/bin/node
+2025-05-26T18:26:57: PM2 log: ===============================================================================
+2025-05-26T18:26:57: PM2 log: App [myserver:0] starting in -fork mode-
+2025-05-26T18:26:57: PM2 log: App [static-server:1] starting in -fork mode-
+2025-05-26T18:26:57: PM2 log: App [myserver:0] online
+2025-05-26T18:26:57: PM2 log: App [static-server:1] online
+2025-05-26T18:29:46: PM2 log: Stopping app:myserver id:0
+2025-05-26T18:29:46: PM2 log: Stopping app:static-server id:1
+2025-05-26T18:29:46: PM2 log: App [myserver:0] exited with code [0] via signal [SIGINT]
+2025-05-26T18:29:46: PM2 log: App [static-server:1] exited with code [0] via signal [SIGINT]
+2025-05-26T18:29:46: PM2 log: pid=657 msg=process killed
+2025-05-26T18:29:46: PM2 log: pid=663 msg=process killed
+2025-05-26T18:29:46: PM2 log: PM2 successfully stopped
+2025-05-26T18:29:52: PM2 log: ===============================================================================
+2025-05-26T18:29:52: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2025-05-26T18:29:52: PM2 log: Time                 : Mon May 26 2025 18:29:52 GMT+0530 (India Standard Time)
+2025-05-26T18:29:52: PM2 log: PM2 version          : 6.0.6
+2025-05-26T18:29:52: PM2 log: Node.js version      : 18.20.8
+2025-05-26T18:29:52: PM2 log: Current arch         : arm64
+2025-05-26T18:29:52: PM2 log: PM2 home             : /home/UbiqCM4/.pm2
+2025-05-26T18:29:52: PM2 log: PM2 PID file         : /home/UbiqCM4/.pm2/pm2.pid
+2025-05-26T18:29:52: PM2 log: RPC socket file      : /home/UbiqCM4/.pm2/rpc.sock
+2025-05-26T18:29:52: PM2 log: BUS socket file      : /home/UbiqCM4/.pm2/pub.sock
+2025-05-26T18:29:52: PM2 log: Application log path : /home/UbiqCM4/.pm2/logs
+2025-05-26T18:29:52: PM2 log: Worker Interval      : 30000
+2025-05-26T18:29:52: PM2 log: Process dump file    : /home/UbiqCM4/.pm2/dump.pm2
+2025-05-26T18:29:52: PM2 log: Concurrent actions   : 2
+2025-05-26T18:29:52: PM2 log: SIGTERM timeout      : 1600
+2025-05-26T18:29:52: PM2 log: Runtime Binary       : /usr/bin/node
+2025-05-26T18:29:52: PM2 log: ===============================================================================
+2025-05-26T18:29:52: PM2 log: App [myserver:0] starting in -fork mode-
+2025-05-26T18:29:52: PM2 log: App [static-server:1] starting in -fork mode-
+2025-05-26T18:29:52: PM2 log: App [myserver:0] online
+2025-05-26T18:29:52: PM2 log: App [static-server:1] online
+2025-05-26T18:31:23: PM2 log: ===============================================================================
+2025-05-26T18:31:23: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2025-05-26T18:31:23: PM2 log: Time                 : Mon May 26 2025 18:31:23 GMT+0530 (India Standard Time)
+2025-05-26T18:31:23: PM2 log: PM2 version          : 6.0.6
+2025-05-26T18:31:23: PM2 log: Node.js version      : 18.20.8
+2025-05-26T18:31:23: PM2 log: Current arch         : arm64
+2025-05-26T18:31:23: PM2 log: PM2 home             : /home/UbiqCM4/.pm2
+2025-05-26T18:31:23: PM2 log: PM2 PID file         : /home/UbiqCM4/.pm2/pm2.pid
+2025-05-26T18:31:23: PM2 log: RPC socket file      : /home/UbiqCM4/.pm2/rpc.sock
+2025-05-26T18:31:23: PM2 log: BUS socket file      : /home/UbiqCM4/.pm2/pub.sock
+2025-05-26T18:31:23: PM2 log: Application log path : /home/UbiqCM4/.pm2/logs
+2025-05-26T18:31:23: PM2 log: Worker Interval      : 30000
+2025-05-26T18:31:23: PM2 log: Process dump file    : /home/UbiqCM4/.pm2/dump.pm2
+2025-05-26T18:31:23: PM2 log: Concurrent actions   : 2
+2025-05-26T18:31:23: PM2 log: SIGTERM timeout      : 1600
+2025-05-26T18:31:23: PM2 log: Runtime Binary       : /usr/bin/node
+2025-05-26T18:31:23: PM2 log: ===============================================================================
+2025-05-26T18:31:23: PM2 log: App [myserver:0] starting in -fork mode-
+2025-05-26T18:31:23: PM2 log: App [static-server:1] starting in -fork mode-
+2025-05-26T18:31:23: PM2 log: App [myserver:0] online
+2025-05-26T18:31:23: PM2 log: App [static-server:1] online
+2025-05-26T18:32:24: PM2 log: ===============================================================================
+2025-05-26T18:32:24: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2025-05-26T18:32:24: PM2 log: Time                 : Mon May 26 2025 18:32:24 GMT+0530 (India Standard Time)
+2025-05-26T18:32:24: PM2 log: PM2 version          : 6.0.6
+2025-05-26T18:32:24: PM2 log: Node.js version      : 18.20.8
+2025-05-26T18:32:24: PM2 log: Current arch         : arm64
+2025-05-26T18:32:24: PM2 log: PM2 home             : /home/UbiqCM4/.pm2
+2025-05-26T18:32:24: PM2 log: PM2 PID file         : /home/UbiqCM4/.pm2/pm2.pid
+2025-05-26T18:32:24: PM2 log: RPC socket file      : /home/UbiqCM4/.pm2/rpc.sock
+2025-05-26T18:32:24: PM2 log: BUS socket file      : /home/UbiqCM4/.pm2/pub.sock
+2025-05-26T18:32:24: PM2 log: Application log path : /home/UbiqCM4/.pm2/logs
+2025-05-26T18:32:24: PM2 log: Worker Interval      : 30000
+2025-05-26T18:32:24: PM2 log: Process dump file    : /home/UbiqCM4/.pm2/dump.pm2
+2025-05-26T18:32:24: PM2 log: Concurrent actions   : 2
+2025-05-26T18:32:24: PM2 log: SIGTERM timeout      : 1600
+2025-05-26T18:32:24: PM2 log: Runtime Binary       : /usr/bin/node
+2025-05-26T18:32:24: PM2 log: ===============================================================================
+2025-05-26T18:32:24: PM2 log: App [myserver:0] starting in -fork mode-
+2025-05-26T18:32:24: PM2 log: App [static-server:1] starting in -fork mode-
+2025-05-26T18:32:24: PM2 log: App [myserver:0] online
+2025-05-26T18:32:24: PM2 log: App [static-server:1] online
+2025-05-26T18:39:51: PM2 log: ===============================================================================
+2025-05-26T18:39:51: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2025-05-26T18:39:51: PM2 log: Time                 : Mon May 26 2025 18:39:51 GMT+0530 (India Standard Time)
+2025-05-26T18:39:51: PM2 log: PM2 version          : 6.0.6
+2025-05-26T18:39:51: PM2 log: Node.js version      : 18.20.8
+2025-05-26T18:39:51: PM2 log: Current arch         : arm64
+2025-05-26T18:39:51: PM2 log: PM2 home             : /home/UbiqCM4/.pm2
+2025-05-26T18:39:51: PM2 log: PM2 PID file         : /home/UbiqCM4/.pm2/pm2.pid
+2025-05-26T18:39:51: PM2 log: RPC socket file      : /home/UbiqCM4/.pm2/rpc.sock
+2025-05-26T18:39:51: PM2 log: BUS socket file      : /home/UbiqCM4/.pm2/pub.sock
+2025-05-26T18:39:51: PM2 log: Application log path : /home/UbiqCM4/.pm2/logs
+2025-05-26T18:39:51: PM2 log: Worker Interval      : 30000
+2025-05-26T18:39:51: PM2 log: Process dump file    : /home/UbiqCM4/.pm2/dump.pm2
+2025-05-26T18:39:51: PM2 log: Concurrent actions   : 2
+2025-05-26T18:39:51: PM2 log: SIGTERM timeout      : 1600
+2025-05-26T18:39:51: PM2 log: Runtime Binary       : /usr/bin/node
+2025-05-26T18:39:51: PM2 log: ===============================================================================
+2025-05-26T18:39:52: PM2 log: App [myserver:0] starting in -fork mode-
+2025-05-26T18:39:52: PM2 log: App [static-server:1] starting in -fork mode-
+2025-05-26T18:39:52: PM2 log: App [myserver:0] online
+2025-05-26T18:39:52: PM2 log: App [static-server:1] online
+2025-05-26T18:43:58: PM2 log: ===============================================================================
+2025-05-26T18:43:58: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2025-05-26T18:43:58: PM2 log: Time                 : Mon May 26 2025 18:43:58 GMT+0530 (India Standard Time)
+2025-05-26T18:43:58: PM2 log: PM2 version          : 6.0.6
+2025-05-26T18:43:58: PM2 log: Node.js version      : 18.20.8
+2025-05-26T18:43:58: PM2 log: Current arch         : arm64
+2025-05-26T18:43:58: PM2 log: PM2 home             : /home/UbiqCM4/.pm2
+2025-05-26T18:43:58: PM2 log: PM2 PID file         : /home/UbiqCM4/.pm2/pm2.pid
+2025-05-26T18:43:58: PM2 log: RPC socket file      : /home/UbiqCM4/.pm2/rpc.sock
+2025-05-26T18:43:58: PM2 log: BUS socket file      : /home/UbiqCM4/.pm2/pub.sock
+2025-05-26T18:43:58: PM2 log: Application log path : /home/UbiqCM4/.pm2/logs
+2025-05-26T18:43:58: PM2 log: Worker Interval      : 30000
+2025-05-26T18:43:58: PM2 log: Process dump file    : /home/UbiqCM4/.pm2/dump.pm2
+2025-05-26T18:43:58: PM2 log: Concurrent actions   : 2
+2025-05-26T18:43:58: PM2 log: SIGTERM timeout      : 1600
+2025-05-26T18:43:58: PM2 log: Runtime Binary       : /usr/bin/node
+2025-05-26T18:43:58: PM2 log: ===============================================================================
+2025-05-26T18:43:58: PM2 log: App [myserver:0] starting in -fork mode-
+2025-05-26T18:43:59: PM2 log: App [static-server:1] starting in -fork mode-
+2025-05-26T18:43:59: PM2 log: App [myserver:0] online
+2025-05-26T18:43:59: PM2 log: App [static-server:1] online
+2025-05-26T18:56:44: PM2 log: ===============================================================================
+2025-05-26T18:56:44: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2025-05-26T18:56:44: PM2 log: Time                 : Mon May 26 2025 18:56:44 GMT+0530 (India Standard Time)
+2025-05-26T18:56:44: PM2 log: PM2 version          : 6.0.6
+2025-05-26T18:56:44: PM2 log: Node.js version      : 18.20.8
+2025-05-26T18:56:44: PM2 log: Current arch         : arm64
+2025-05-26T18:56:44: PM2 log: PM2 home             : /home/UbiqCM4/.pm2
+2025-05-26T18:56:44: PM2 log: PM2 PID file         : /home/UbiqCM4/.pm2/pm2.pid
+2025-05-26T18:56:44: PM2 log: RPC socket file      : /home/UbiqCM4/.pm2/rpc.sock
+2025-05-26T18:56:44: PM2 log: BUS socket file      : /home/UbiqCM4/.pm2/pub.sock
+2025-05-26T18:56:44: PM2 log: Application log path : /home/UbiqCM4/.pm2/logs
+2025-05-26T18:56:44: PM2 log: Worker Interval      : 30000
+2025-05-26T18:56:44: PM2 log: Process dump file    : /home/UbiqCM4/.pm2/dump.pm2
+2025-05-26T18:56:44: PM2 log: Concurrent actions   : 2
+2025-05-26T18:56:44: PM2 log: SIGTERM timeout      : 1600
+2025-05-26T18:56:44: PM2 log: Runtime Binary       : /usr/bin/node
+2025-05-26T18:56:44: PM2 log: ===============================================================================
+2025-05-26T18:56:44: PM2 log: App [myserver:0] starting in -fork mode-
+2025-05-26T18:56:44: PM2 log: App [static-server:1] starting in -fork mode-
+2025-05-26T18:56:44: PM2 log: App [myserver:0] online
+2025-05-26T18:56:44: PM2 log: App [static-server:1] online
+2025-05-26T18:57:48: PM2 log: ===============================================================================
+2025-05-26T18:57:48: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2025-05-26T18:57:48: PM2 log: Time                 : Mon May 26 2025 18:57:48 GMT+0530 (India Standard Time)
+2025-05-26T18:57:48: PM2 log: PM2 version          : 6.0.6
+2025-05-26T18:57:48: PM2 log: Node.js version      : 18.20.8
+2025-05-26T18:57:48: PM2 log: Current arch         : arm64
+2025-05-26T18:57:48: PM2 log: PM2 home             : /home/UbiqCM4/.pm2
+2025-05-26T18:57:48: PM2 log: PM2 PID file         : /home/UbiqCM4/.pm2/pm2.pid
+2025-05-26T18:57:48: PM2 log: RPC socket file      : /home/UbiqCM4/.pm2/rpc.sock
+2025-05-26T18:57:48: PM2 log: BUS socket file      : /home/UbiqCM4/.pm2/pub.sock
+2025-05-26T18:57:48: PM2 log: Application log path : /home/UbiqCM4/.pm2/logs
+2025-05-26T18:57:48: PM2 log: Worker Interval      : 30000
+2025-05-26T18:57:48: PM2 log: Process dump file    : /home/UbiqCM4/.pm2/dump.pm2
+2025-05-26T18:57:48: PM2 log: Concurrent actions   : 2
+2025-05-26T18:57:48: PM2 log: SIGTERM timeout      : 1600
+2025-05-26T18:57:48: PM2 log: Runtime Binary       : /usr/bin/node
+2025-05-26T18:57:48: PM2 log: ===============================================================================
+2025-05-26T18:57:49: PM2 log: App [myserver:0] starting in -fork mode-
+2025-05-26T18:57:49: PM2 log: App [static-server:1] starting in -fork mode-
+2025-05-26T18:57:49: PM2 log: App [myserver:0] online
+2025-05-26T18:57:49: PM2 log: App [static-server:1] online
+2025-05-26T18:59:50: PM2 log: ===============================================================================
+2025-05-26T18:59:50: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2025-05-26T18:59:50: PM2 log: Time                 : Mon May 26 2025 18:59:50 GMT+0530 (India Standard Time)
+2025-05-26T18:59:50: PM2 log: PM2 version          : 6.0.6
+2025-05-26T18:59:50: PM2 log: Node.js version      : 18.20.8
+2025-05-26T18:59:50: PM2 log: Current arch         : arm64
+2025-05-26T18:59:50: PM2 log: PM2 home             : /home/UbiqCM4/.pm2
+2025-05-26T18:59:50: PM2 log: PM2 PID file         : /home/UbiqCM4/.pm2/pm2.pid
+2025-05-26T18:59:50: PM2 log: RPC socket file      : /home/UbiqCM4/.pm2/rpc.sock
+2025-05-26T18:59:50: PM2 log: BUS socket file      : /home/UbiqCM4/.pm2/pub.sock
+2025-05-26T18:59:50: PM2 log: Application log path : /home/UbiqCM4/.pm2/logs
+2025-05-26T18:59:50: PM2 log: Worker Interval      : 30000
+2025-05-26T18:59:50: PM2 log: Process dump file    : /home/UbiqCM4/.pm2/dump.pm2
+2025-05-26T18:59:50: PM2 log: Concurrent actions   : 2
+2025-05-26T18:59:50: PM2 log: SIGTERM timeout      : 1600
+2025-05-26T18:59:50: PM2 log: Runtime Binary       : /usr/bin/node
+2025-05-26T18:59:50: PM2 log: ===============================================================================
+2025-05-26T18:59:50: PM2 log: App [myserver:0] starting in -fork mode-
+2025-05-26T18:59:50: PM2 log: App [static-server:1] starting in -fork mode-
+2025-05-26T18:59:50: PM2 log: App [myserver:0] online
+2025-05-26T18:59:50: PM2 log: App [static-server:1] online
+2025-05-26T19:23:20: PM2 log: ===============================================================================
+2025-05-26T19:23:20: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2025-05-26T19:23:20: PM2 log: Time                 : Mon May 26 2025 19:23:20 GMT+0530 (India Standard Time)
+2025-05-26T19:23:20: PM2 log: PM2 version          : 6.0.6
+2025-05-26T19:23:20: PM2 log: Node.js version      : 18.20.8
+2025-05-26T19:23:20: PM2 log: Current arch         : arm64
+2025-05-26T19:23:20: PM2 log: PM2 home             : /home/UbiqCM4/.pm2
+2025-05-26T19:23:20: PM2 log: PM2 PID file         : /home/UbiqCM4/.pm2/pm2.pid
+2025-05-26T19:23:20: PM2 log: RPC socket file      : /home/UbiqCM4/.pm2/rpc.sock
+2025-05-26T19:23:20: PM2 log: BUS socket file      : /home/UbiqCM4/.pm2/pub.sock
+2025-05-26T19:23:20: PM2 log: Application log path : /home/UbiqCM4/.pm2/logs
+2025-05-26T19:23:20: PM2 log: Worker Interval      : 30000
+2025-05-26T19:23:20: PM2 log: Process dump file    : /home/UbiqCM4/.pm2/dump.pm2
+2025-05-26T19:23:20: PM2 log: Concurrent actions   : 2
+2025-05-26T19:23:20: PM2 log: SIGTERM timeout      : 1600
+2025-05-26T19:23:20: PM2 log: Runtime Binary       : /usr/bin/node
+2025-05-26T19:23:20: PM2 log: ===============================================================================
+2025-05-26T19:23:20: PM2 log: App [myserver:0] starting in -fork mode-
+2025-05-26T19:23:20: PM2 log: App [static-server:1] starting in -fork mode-
+2025-05-26T19:23:20: PM2 log: App [myserver:0] online
+2025-05-26T19:23:20: PM2 log: App [static-server:1] online
+2025-05-26T19:29:27: PM2 log: ===============================================================================
+2025-05-26T19:29:27: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2025-05-26T19:29:27: PM2 log: Time                 : Mon May 26 2025 19:29:27 GMT+0530 (India Standard Time)
+2025-05-26T19:29:27: PM2 log: PM2 version          : 6.0.6
+2025-05-26T19:29:27: PM2 log: Node.js version      : 18.20.8
+2025-05-26T19:29:27: PM2 log: Current arch         : arm64
+2025-05-26T19:29:27: PM2 log: PM2 home             : /home/UbiqCM4/.pm2
+2025-05-26T19:29:27: PM2 log: PM2 PID file         : /home/UbiqCM4/.pm2/pm2.pid
+2025-05-26T19:29:27: PM2 log: RPC socket file      : /home/UbiqCM4/.pm2/rpc.sock
+2025-05-26T19:29:27: PM2 log: BUS socket file      : /home/UbiqCM4/.pm2/pub.sock
+2025-05-26T19:29:27: PM2 log: Application log path : /home/UbiqCM4/.pm2/logs
+2025-05-26T19:29:27: PM2 log: Worker Interval      : 30000
+2025-05-26T19:29:27: PM2 log: Process dump file    : /home/UbiqCM4/.pm2/dump.pm2
+2025-05-26T19:29:27: PM2 log: Concurrent actions   : 2
+2025-05-26T19:29:27: PM2 log: SIGTERM timeout      : 1600
+2025-05-26T19:29:27: PM2 log: Runtime Binary       : /usr/bin/node
+2025-05-26T19:29:27: PM2 log: ===============================================================================
+2025-05-26T19:29:28: PM2 log: App [myserver:0] starting in -fork mode-
+2025-05-26T19:29:28: PM2 log: App [static-server:1] starting in -fork mode-
+2025-05-26T19:29:28: PM2 log: App [myserver:0] online
+2025-05-26T19:29:28: PM2 log: App [static-server:1] online
+2025-05-26T19:36:46: PM2 log: ===============================================================================
+2025-05-26T19:36:46: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2025-05-26T19:36:46: PM2 log: Time                 : Mon May 26 2025 19:36:46 GMT+0530 (India Standard Time)
+2025-05-26T19:36:46: PM2 log: PM2 version          : 6.0.6
+2025-05-26T19:36:46: PM2 log: Node.js version      : 18.20.8
+2025-05-26T19:36:46: PM2 log: Current arch         : arm64
+2025-05-26T19:36:46: PM2 log: PM2 home             : /home/UbiqCM4/.pm2
+2025-05-26T19:36:46: PM2 log: PM2 PID file         : /home/UbiqCM4/.pm2/pm2.pid
+2025-05-26T19:36:46: PM2 log: RPC socket file      : /home/UbiqCM4/.pm2/rpc.sock
+2025-05-26T19:36:46: PM2 log: BUS socket file      : /home/UbiqCM4/.pm2/pub.sock
+2025-05-26T19:36:46: PM2 log: Application log path : /home/UbiqCM4/.pm2/logs
+2025-05-26T19:36:46: PM2 log: Worker Interval      : 30000
+2025-05-26T19:36:46: PM2 log: Process dump file    : /home/UbiqCM4/.pm2/dump.pm2
+2025-05-26T19:36:46: PM2 log: Concurrent actions   : 2
+2025-05-26T19:36:46: PM2 log: SIGTERM timeout      : 1600
+2025-05-26T19:36:46: PM2 log: Runtime Binary       : /usr/bin/node
+2025-05-26T19:36:46: PM2 log: ===============================================================================
+2025-05-26T19:36:46: PM2 log: App [myserver:0] starting in -fork mode-
+2025-05-26T19:36:47: PM2 log: App [static-server:1] starting in -fork mode-
+2025-05-26T19:36:47: PM2 log: App [myserver:0] online
+2025-05-26T19:36:47: PM2 log: App [static-server:1] online
+2025-05-26T19:46:11: PM2 log: ===============================================================================
+2025-05-26T19:46:11: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2025-05-26T19:46:11: PM2 log: Time                 : Mon May 26 2025 19:46:11 GMT+0530 (India Standard Time)
+2025-05-26T19:46:11: PM2 log: PM2 version          : 6.0.6
+2025-05-26T19:46:11: PM2 log: Node.js version      : 18.20.8
+2025-05-26T19:46:11: PM2 log: Current arch         : arm64
+2025-05-26T19:46:11: PM2 log: PM2 home             : /home/UbiqCM4/.pm2
+2025-05-26T19:46:11: PM2 log: PM2 PID file         : /home/UbiqCM4/.pm2/pm2.pid
+2025-05-26T19:46:11: PM2 log: RPC socket file      : /home/UbiqCM4/.pm2/rpc.sock
+2025-05-26T19:46:11: PM2 log: BUS socket file      : /home/UbiqCM4/.pm2/pub.sock
+2025-05-26T19:46:11: PM2 log: Application log path : /home/UbiqCM4/.pm2/logs
+2025-05-26T19:46:11: PM2 log: Worker Interval      : 30000
+2025-05-26T19:46:11: PM2 log: Process dump file    : /home/UbiqCM4/.pm2/dump.pm2
+2025-05-26T19:46:11: PM2 log: Concurrent actions   : 2
+2025-05-26T19:46:11: PM2 log: SIGTERM timeout      : 1600
+2025-05-26T19:46:11: PM2 log: Runtime Binary       : /usr/bin/node
+2025-05-26T19:46:11: PM2 log: ===============================================================================
+2025-05-26T19:46:11: PM2 log: App [myserver:0] starting in -fork mode-
+2025-05-26T19:46:11: PM2 log: App [static-server:1] starting in -fork mode-
+2025-05-26T19:46:11: PM2 log: App [myserver:0] online
+2025-05-26T19:46:11: PM2 log: App [static-server:1] online
+2025-05-26T19:50:24: PM2 log: ===============================================================================
+2025-05-26T19:50:24: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2025-05-26T19:50:24: PM2 log: Time                 : Mon May 26 2025 19:50:24 GMT+0530 (India Standard Time)
+2025-05-26T19:50:24: PM2 log: PM2 version          : 6.0.6
+2025-05-26T19:50:24: PM2 log: Node.js version      : 18.20.8
+2025-05-26T19:50:24: PM2 log: Current arch         : arm64
+2025-05-26T19:50:24: PM2 log: PM2 home             : /home/UbiqCM4/.pm2
+2025-05-26T19:50:24: PM2 log: PM2 PID file         : /home/UbiqCM4/.pm2/pm2.pid
+2025-05-26T19:50:24: PM2 log: RPC socket file      : /home/UbiqCM4/.pm2/rpc.sock
+2025-05-26T19:50:24: PM2 log: BUS socket file      : /home/UbiqCM4/.pm2/pub.sock
+2025-05-26T19:50:24: PM2 log: Application log path : /home/UbiqCM4/.pm2/logs
+2025-05-26T19:50:24: PM2 log: Worker Interval      : 30000
+2025-05-26T19:50:24: PM2 log: Process dump file    : /home/UbiqCM4/.pm2/dump.pm2
+2025-05-26T19:50:24: PM2 log: Concurrent actions   : 2
+2025-05-26T19:50:24: PM2 log: SIGTERM timeout      : 1600
+2025-05-26T19:50:24: PM2 log: Runtime Binary       : /usr/bin/node
+2025-05-26T19:50:24: PM2 log: ===============================================================================
+2025-05-26T19:50:24: PM2 log: App [myserver:0] starting in -fork mode-
+2025-05-26T19:50:24: PM2 log: App [static-server:1] starting in -fork mode-
+2025-05-26T19:50:24: PM2 log: App [myserver:0] online
+2025-05-26T19:50:24: PM2 log: App [static-server:1] online
+2025-05-26T19:54:58: PM2 log: ===============================================================================
+2025-05-26T19:54:58: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2025-05-26T19:54:58: PM2 log: Time                 : Mon May 26 2025 19:54:58 GMT+0530 (India Standard Time)
+2025-05-26T19:54:58: PM2 log: PM2 version          : 6.0.6
+2025-05-26T19:54:58: PM2 log: Node.js version      : 18.20.8
+2025-05-26T19:54:58: PM2 log: Current arch         : arm64
+2025-05-26T19:54:58: PM2 log: PM2 home             : /home/UbiqCM4/.pm2
+2025-05-26T19:54:58: PM2 log: PM2 PID file         : /home/UbiqCM4/.pm2/pm2.pid
+2025-05-26T19:54:58: PM2 log: RPC socket file      : /home/UbiqCM4/.pm2/rpc.sock
+2025-05-26T19:54:58: PM2 log: BUS socket file      : /home/UbiqCM4/.pm2/pub.sock
+2025-05-26T19:54:58: PM2 log: Application log path : /home/UbiqCM4/.pm2/logs
+2025-05-26T19:54:58: PM2 log: Worker Interval      : 30000
+2025-05-26T19:54:58: PM2 log: Process dump file    : /home/UbiqCM4/.pm2/dump.pm2
+2025-05-26T19:54:58: PM2 log: Concurrent actions   : 2
+2025-05-26T19:54:58: PM2 log: SIGTERM timeout      : 1600
+2025-05-26T19:54:58: PM2 log: Runtime Binary       : /usr/bin/node
+2025-05-26T19:54:58: PM2 log: ===============================================================================
+2025-05-26T19:54:58: PM2 log: App [myserver:0] starting in -fork mode-
+2025-05-26T19:54:58: PM2 log: App [static-server:1] starting in -fork mode-
+2025-05-26T19:54:58: PM2 log: App [myserver:0] online
+2025-05-26T19:54:58: PM2 log: App [static-server:1] online
+2025-05-26T20:04:42: PM2 log: ===============================================================================
+2025-05-26T20:04:42: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2025-05-26T20:04:42: PM2 log: Time                 : Mon May 26 2025 20:04:42 GMT+0530 (India Standard Time)
+2025-05-26T20:04:42: PM2 log: PM2 version          : 6.0.6
+2025-05-26T20:04:42: PM2 log: Node.js version      : 18.20.8
+2025-05-26T20:04:42: PM2 log: Current arch         : arm64
+2025-05-26T20:04:42: PM2 log: PM2 home             : /home/UbiqCM4/.pm2
+2025-05-26T20:04:42: PM2 log: PM2 PID file         : /home/UbiqCM4/.pm2/pm2.pid
+2025-05-26T20:04:42: PM2 log: RPC socket file      : /home/UbiqCM4/.pm2/rpc.sock
+2025-05-26T20:04:42: PM2 log: BUS socket file      : /home/UbiqCM4/.pm2/pub.sock
+2025-05-26T20:04:42: PM2 log: Application log path : /home/UbiqCM4/.pm2/logs
+2025-05-26T20:04:42: PM2 log: Worker Interval      : 30000
+2025-05-26T20:04:42: PM2 log: Process dump file    : /home/UbiqCM4/.pm2/dump.pm2
+2025-05-26T20:04:42: PM2 log: Concurrent actions   : 2
+2025-05-26T20:04:42: PM2 log: SIGTERM timeout      : 1600
+2025-05-26T20:04:42: PM2 log: Runtime Binary       : /usr/bin/node
+2025-05-26T20:04:42: PM2 log: ===============================================================================
+2025-05-26T20:04:42: PM2 log: App [myserver:0] starting in -fork mode-
+2025-05-26T20:04:42: PM2 log: App [static-server:1] starting in -fork mode-
+2025-05-26T20:04:42: PM2 log: App [myserver:0] online
+2025-05-26T20:04:42: PM2 log: App [static-server:1] online
+2025-05-26T20:17:33: PM2 log: ===============================================================================
+2025-05-26T20:17:33: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2025-05-26T20:17:33: PM2 log: Time                 : Mon May 26 2025 20:17:33 GMT+0530 (India Standard Time)
+2025-05-26T20:17:33: PM2 log: PM2 version          : 6.0.6
+2025-05-26T20:17:33: PM2 log: Node.js version      : 18.20.8
+2025-05-26T20:17:33: PM2 log: Current arch         : arm64
+2025-05-26T20:17:33: PM2 log: PM2 home             : /home/UbiqCM4/.pm2
+2025-05-26T20:17:33: PM2 log: PM2 PID file         : /home/UbiqCM4/.pm2/pm2.pid
+2025-05-26T20:17:33: PM2 log: RPC socket file      : /home/UbiqCM4/.pm2/rpc.sock
+2025-05-26T20:17:33: PM2 log: BUS socket file      : /home/UbiqCM4/.pm2/pub.sock
+2025-05-26T20:17:33: PM2 log: Application log path : /home/UbiqCM4/.pm2/logs
+2025-05-26T20:17:33: PM2 log: Worker Interval      : 30000
+2025-05-26T20:17:33: PM2 log: Process dump file    : /home/UbiqCM4/.pm2/dump.pm2
+2025-05-26T20:17:33: PM2 log: Concurrent actions   : 2
+2025-05-26T20:17:33: PM2 log: SIGTERM timeout      : 1600
+2025-05-26T20:17:33: PM2 log: Runtime Binary       : /usr/bin/node
+2025-05-26T20:17:33: PM2 log: ===============================================================================
+2025-05-26T20:17:33: PM2 log: App [myserver:0] starting in -fork mode-
+2025-05-26T20:17:33: PM2 log: App [static-server:1] starting in -fork mode-
+2025-05-26T20:17:33: PM2 log: App [myserver:0] online
+2025-05-26T20:17:33: PM2 log: App [static-server:1] online
+2025-05-26T20:19:34: PM2 log: ===============================================================================
+2025-05-26T20:19:34: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2025-05-26T20:19:34: PM2 log: Time                 : Mon May 26 2025 20:19:34 GMT+0530 (India Standard Time)
+2025-05-26T20:19:34: PM2 log: PM2 version          : 6.0.6
+2025-05-26T20:19:34: PM2 log: Node.js version      : 18.20.8
+2025-05-26T20:19:34: PM2 log: Current arch         : arm64
+2025-05-26T20:19:34: PM2 log: PM2 home             : /home/UbiqCM4/.pm2
+2025-05-26T20:19:34: PM2 log: PM2 PID file         : /home/UbiqCM4/.pm2/pm2.pid
+2025-05-26T20:19:34: PM2 log: RPC socket file      : /home/UbiqCM4/.pm2/rpc.sock
+2025-05-26T20:19:34: PM2 log: BUS socket file      : /home/UbiqCM4/.pm2/pub.sock
+2025-05-26T20:19:34: PM2 log: Application log path : /home/UbiqCM4/.pm2/logs
+2025-05-26T20:19:34: PM2 log: Worker Interval      : 30000
+2025-05-26T20:19:34: PM2 log: Process dump file    : /home/UbiqCM4/.pm2/dump.pm2
+2025-05-26T20:19:34: PM2 log: Concurrent actions   : 2
+2025-05-26T20:19:34: PM2 log: SIGTERM timeout      : 1600
+2025-05-26T20:19:34: PM2 log: Runtime Binary       : /usr/bin/node
+2025-05-26T20:19:34: PM2 log: ===============================================================================
+2025-05-26T20:19:34: PM2 log: App [myserver:0] starting in -fork mode-
+2025-05-26T20:19:34: PM2 log: App [static-server:1] starting in -fork mode-
+2025-05-26T20:19:34: PM2 log: App [myserver:0] online
+2025-05-26T20:19:34: PM2 log: App [static-server:1] online
+2025-05-26T20:25:09: PM2 log: ===============================================================================
+2025-05-26T20:25:09: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2025-05-26T20:25:09: PM2 log: Time                 : Mon May 26 2025 20:25:09 GMT+0530 (India Standard Time)
+2025-05-26T20:25:09: PM2 log: PM2 version          : 6.0.6
+2025-05-26T20:25:09: PM2 log: Node.js version      : 18.20.8
+2025-05-26T20:25:09: PM2 log: Current arch         : arm64
+2025-05-26T20:25:09: PM2 log: PM2 home             : /home/UbiqCM4/.pm2
+2025-05-26T20:25:09: PM2 log: PM2 PID file         : /home/UbiqCM4/.pm2/pm2.pid
+2025-05-26T20:25:09: PM2 log: RPC socket file      : /home/UbiqCM4/.pm2/rpc.sock
+2025-05-26T20:25:09: PM2 log: BUS socket file      : /home/UbiqCM4/.pm2/pub.sock
+2025-05-26T20:25:09: PM2 log: Application log path : /home/UbiqCM4/.pm2/logs
+2025-05-26T20:25:09: PM2 log: Worker Interval      : 30000
+2025-05-26T20:25:09: PM2 log: Process dump file    : /home/UbiqCM4/.pm2/dump.pm2
+2025-05-26T20:25:09: PM2 log: Concurrent actions   : 2
+2025-05-26T20:25:09: PM2 log: SIGTERM timeout      : 1600
+2025-05-26T20:25:09: PM2 log: Runtime Binary       : /usr/bin/node
+2025-05-26T20:25:09: PM2 log: ===============================================================================
+2025-05-26T20:25:09: PM2 log: App [myserver:0] starting in -fork mode-
+2025-05-26T20:25:09: PM2 log: App [static-server:1] starting in -fork mode-
+2025-05-26T20:25:09: PM2 log: App [myserver:0] online
+2025-05-26T20:25:09: PM2 log: App [static-server:1] online
+2025-05-26T20:29:11: PM2 log: ===============================================================================
+2025-05-26T20:29:11: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2025-05-26T20:29:11: PM2 log: Time                 : Mon May 26 2025 20:29:11 GMT+0530 (India Standard Time)
+2025-05-26T20:29:11: PM2 log: PM2 version          : 6.0.6
+2025-05-26T20:29:11: PM2 log: Node.js version      : 18.20.8
+2025-05-26T20:29:11: PM2 log: Current arch         : arm64
+2025-05-26T20:29:11: PM2 log: PM2 home             : /home/UbiqCM4/.pm2
+2025-05-26T20:29:11: PM2 log: PM2 PID file         : /home/UbiqCM4/.pm2/pm2.pid
+2025-05-26T20:29:11: PM2 log: RPC socket file      : /home/UbiqCM4/.pm2/rpc.sock
+2025-05-26T20:29:11: PM2 log: BUS socket file      : /home/UbiqCM4/.pm2/pub.sock
+2025-05-26T20:29:11: PM2 log: Application log path : /home/UbiqCM4/.pm2/logs
+2025-05-26T20:29:11: PM2 log: Worker Interval      : 30000
+2025-05-26T20:29:11: PM2 log: Process dump file    : /home/UbiqCM4/.pm2/dump.pm2
+2025-05-26T20:29:11: PM2 log: Concurrent actions   : 2
+2025-05-26T20:29:11: PM2 log: SIGTERM timeout      : 1600
+2025-05-26T20:29:11: PM2 log: Runtime Binary       : /usr/bin/node
+2025-05-26T20:29:11: PM2 log: ===============================================================================
+2025-05-26T20:29:11: PM2 log: App [myserver:0] starting in -fork mode-
+2025-05-26T20:29:11: PM2 log: App [static-server:1] starting in -fork mode-
+2025-05-26T20:29:11: PM2 log: App [myserver:0] online
+2025-05-26T20:29:11: PM2 log: App [static-server:1] online
+2025-05-26T20:31:12: PM2 log: ===============================================================================
+2025-05-26T20:31:12: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2025-05-26T20:31:12: PM2 log: Time                 : Mon May 26 2025 20:31:12 GMT+0530 (India Standard Time)
+2025-05-26T20:31:12: PM2 log: PM2 version          : 6.0.6
+2025-05-26T20:31:12: PM2 log: Node.js version      : 18.20.8
+2025-05-26T20:31:12: PM2 log: Current arch         : arm64
+2025-05-26T20:31:12: PM2 log: PM2 home             : /home/UbiqCM4/.pm2
+2025-05-26T20:31:12: PM2 log: PM2 PID file         : /home/UbiqCM4/.pm2/pm2.pid
+2025-05-26T20:31:12: PM2 log: RPC socket file      : /home/UbiqCM4/.pm2/rpc.sock
+2025-05-26T20:31:12: PM2 log: BUS socket file      : /home/UbiqCM4/.pm2/pub.sock
+2025-05-26T20:31:12: PM2 log: Application log path : /home/UbiqCM4/.pm2/logs
+2025-05-26T20:31:12: PM2 log: Worker Interval      : 30000
+2025-05-26T20:31:12: PM2 log: Process dump file    : /home/UbiqCM4/.pm2/dump.pm2
+2025-05-26T20:31:12: PM2 log: Concurrent actions   : 2
+2025-05-26T20:31:12: PM2 log: SIGTERM timeout      : 1600
+2025-05-26T20:31:12: PM2 log: Runtime Binary       : /usr/bin/node
+2025-05-26T20:31:12: PM2 log: ===============================================================================
+2025-05-26T20:31:12: PM2 log: App [myserver:0] starting in -fork mode-
+2025-05-26T20:31:12: PM2 log: App [static-server:1] starting in -fork mode-
+2025-05-26T20:31:12: PM2 log: App [myserver:0] online
+2025-05-26T20:31:12: PM2 log: App [static-server:1] online
+2025-05-26T20:41:16: PM2 log: ===============================================================================
+2025-05-26T20:41:16: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2025-05-26T20:41:16: PM2 log: Time                 : Mon May 26 2025 20:41:16 GMT+0530 (India Standard Time)
+2025-05-26T20:41:16: PM2 log: PM2 version          : 6.0.6
+2025-05-26T20:41:16: PM2 log: Node.js version      : 18.20.8
+2025-05-26T20:41:16: PM2 log: Current arch         : arm64
+2025-05-26T20:41:16: PM2 log: PM2 home             : /home/UbiqCM4/.pm2
+2025-05-26T20:41:16: PM2 log: PM2 PID file         : /home/UbiqCM4/.pm2/pm2.pid
+2025-05-26T20:41:16: PM2 log: RPC socket file      : /home/UbiqCM4/.pm2/rpc.sock
+2025-05-26T20:41:16: PM2 log: BUS socket file      : /home/UbiqCM4/.pm2/pub.sock
+2025-05-26T20:41:16: PM2 log: Application log path : /home/UbiqCM4/.pm2/logs
+2025-05-26T20:41:16: PM2 log: Worker Interval      : 30000
+2025-05-26T20:41:16: PM2 log: Process dump file    : /home/UbiqCM4/.pm2/dump.pm2
+2025-05-26T20:41:16: PM2 log: Concurrent actions   : 2
+2025-05-26T20:41:16: PM2 log: SIGTERM timeout      : 1600
+2025-05-26T20:41:16: PM2 log: Runtime Binary       : /usr/bin/node
+2025-05-26T20:41:16: PM2 log: ===============================================================================
+2025-05-26T20:41:16: PM2 log: App [myserver:0] starting in -fork mode-
+2025-05-26T20:41:16: PM2 log: App [static-server:1] starting in -fork mode-
+2025-05-26T20:41:17: PM2 log: App [myserver:0] online
+2025-05-26T20:41:17: PM2 log: App [static-server:1] online
+2025-05-26T22:14:02: PM2 log: ===============================================================================
+2025-05-26T22:14:02: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2025-05-26T22:14:02: PM2 log: Time                 : Mon May 26 2025 22:14:02 GMT+0530 (India Standard Time)
+2025-05-26T22:14:02: PM2 log: PM2 version          : 6.0.6
+2025-05-26T22:14:02: PM2 log: Node.js version      : 18.20.8
+2025-05-26T22:14:02: PM2 log: Current arch         : arm64
+2025-05-26T22:14:02: PM2 log: PM2 home             : /home/UbiqCM4/.pm2
+2025-05-26T22:14:02: PM2 log: PM2 PID file         : /home/UbiqCM4/.pm2/pm2.pid
+2025-05-26T22:14:02: PM2 log: RPC socket file      : /home/UbiqCM4/.pm2/rpc.sock
+2025-05-26T22:14:02: PM2 log: BUS socket file      : /home/UbiqCM4/.pm2/pub.sock
+2025-05-26T22:14:02: PM2 log: Application log path : /home/UbiqCM4/.pm2/logs
+2025-05-26T22:14:02: PM2 log: Worker Interval      : 30000
+2025-05-26T22:14:02: PM2 log: Process dump file    : /home/UbiqCM4/.pm2/dump.pm2
+2025-05-26T22:14:02: PM2 log: Concurrent actions   : 2
+2025-05-26T22:14:02: PM2 log: SIGTERM timeout      : 1600
+2025-05-26T22:14:02: PM2 log: Runtime Binary       : /usr/bin/node
+2025-05-26T22:14:02: PM2 log: ===============================================================================
+2025-05-26T22:14:02: PM2 log: App [myserver:0] starting in -fork mode-
+2025-05-26T22:14:02: PM2 log: App [static-server:1] starting in -fork mode-
+2025-05-26T22:14:02: PM2 log: App [myserver:0] online
+2025-05-26T22:14:02: PM2 log: App [static-server:1] online
+2025-05-26T22:16:03: PM2 log: ===============================================================================
+2025-05-26T22:16:03: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2025-05-26T22:16:03: PM2 log: Time                 : Mon May 26 2025 22:16:03 GMT+0530 (India Standard Time)
+2025-05-26T22:16:03: PM2 log: PM2 version          : 6.0.6
+2025-05-26T22:16:03: PM2 log: Node.js version      : 18.20.8
+2025-05-26T22:16:03: PM2 log: Current arch         : arm64
+2025-05-26T22:16:03: PM2 log: PM2 home             : /home/UbiqCM4/.pm2
+2025-05-26T22:16:03: PM2 log: PM2 PID file         : /home/UbiqCM4/.pm2/pm2.pid
+2025-05-26T22:16:03: PM2 log: RPC socket file      : /home/UbiqCM4/.pm2/rpc.sock
+2025-05-26T22:16:03: PM2 log: BUS socket file      : /home/UbiqCM4/.pm2/pub.sock
+2025-05-26T22:16:03: PM2 log: Application log path : /home/UbiqCM4/.pm2/logs
+2025-05-26T22:16:03: PM2 log: Worker Interval      : 30000
+2025-05-26T22:16:03: PM2 log: Process dump file    : /home/UbiqCM4/.pm2/dump.pm2
+2025-05-26T22:16:03: PM2 log: Concurrent actions   : 2
+2025-05-26T22:16:03: PM2 log: SIGTERM timeout      : 1600
+2025-05-26T22:16:03: PM2 log: Runtime Binary       : /usr/bin/node
+2025-05-26T22:16:03: PM2 log: ===============================================================================
+2025-05-26T22:16:03: PM2 log: App [myserver:0] starting in -fork mode-
+2025-05-26T22:16:03: PM2 log: App [static-server:1] starting in -fork mode-
+2025-05-26T22:16:03: PM2 log: App [myserver:0] online
+2025-05-26T22:16:03: PM2 log: App [static-server:1] online
+2025-05-27T06:17:06: PM2 log: ===============================================================================
+2025-05-27T06:17:06: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2025-05-27T06:17:06: PM2 log: Time                 : Tue May 27 2025 06:17:06 GMT+0530 (India Standard Time)
+2025-05-27T06:17:06: PM2 log: PM2 version          : 6.0.6
+2025-05-27T06:17:06: PM2 log: Node.js version      : 18.20.8
+2025-05-27T06:17:06: PM2 log: Current arch         : arm64
+2025-05-27T06:17:06: PM2 log: PM2 home             : /home/UbiqCM4/.pm2
+2025-05-27T06:17:06: PM2 log: PM2 PID file         : /home/UbiqCM4/.pm2/pm2.pid
+2025-05-27T06:17:06: PM2 log: RPC socket file      : /home/UbiqCM4/.pm2/rpc.sock
+2025-05-27T06:17:06: PM2 log: BUS socket file      : /home/UbiqCM4/.pm2/pub.sock
+2025-05-27T06:17:06: PM2 log: Application log path : /home/UbiqCM4/.pm2/logs
+2025-05-27T06:17:06: PM2 log: Worker Interval      : 30000
+2025-05-27T06:17:06: PM2 log: Process dump file    : /home/UbiqCM4/.pm2/dump.pm2
+2025-05-27T06:17:06: PM2 log: Concurrent actions   : 2
+2025-05-27T06:17:06: PM2 log: SIGTERM timeout      : 1600
+2025-05-27T06:17:06: PM2 log: Runtime Binary       : /usr/bin/node
+2025-05-27T06:17:06: PM2 log: ===============================================================================
+2025-05-27T06:17:06: PM2 log: App [myserver:0] starting in -fork mode-
+2025-05-27T06:17:06: PM2 log: App [static-server:1] starting in -fork mode-
+2025-05-27T06:17:06: PM2 log: App [myserver:0] online
+2025-05-27T06:17:06: PM2 log: App [static-server:1] online
+2025-05-27T06:19:07: PM2 log: ===============================================================================
+2025-05-27T06:19:07: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2025-05-27T06:19:07: PM2 log: Time                 : Tue May 27 2025 06:19:07 GMT+0530 (India Standard Time)
+2025-05-27T06:19:07: PM2 log: PM2 version          : 6.0.6
+2025-05-27T06:19:07: PM2 log: Node.js version      : 18.20.8
+2025-05-27T06:19:07: PM2 log: Current arch         : arm64
+2025-05-27T06:19:07: PM2 log: PM2 home             : /home/UbiqCM4/.pm2
+2025-05-27T06:19:07: PM2 log: PM2 PID file         : /home/UbiqCM4/.pm2/pm2.pid
+2025-05-27T06:19:07: PM2 log: RPC socket file      : /home/UbiqCM4/.pm2/rpc.sock
+2025-05-27T06:19:07: PM2 log: BUS socket file      : /home/UbiqCM4/.pm2/pub.sock
+2025-05-27T06:19:07: PM2 log: Application log path : /home/UbiqCM4/.pm2/logs
+2025-05-27T06:19:07: PM2 log: Worker Interval      : 30000
+2025-05-27T06:19:07: PM2 log: Process dump file    : /home/UbiqCM4/.pm2/dump.pm2
+2025-05-27T06:19:07: PM2 log: Concurrent actions   : 2
+2025-05-27T06:19:07: PM2 log: SIGTERM timeout      : 1600
+2025-05-27T06:19:07: PM2 log: Runtime Binary       : /usr/bin/node
+2025-05-27T06:19:07: PM2 log: ===============================================================================
+2025-05-27T06:19:07: PM2 log: App [myserver:0] starting in -fork mode-
+2025-05-27T06:19:07: PM2 log: App [static-server:1] starting in -fork mode-
+2025-05-27T06:19:07: PM2 log: App [myserver:0] online
+2025-05-27T06:19:07: PM2 log: App [static-server:1] online
+2025-05-27T06:37:16: PM2 log: ===============================================================================
+2025-05-27T06:37:16: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2025-05-27T06:37:16: PM2 log: Time                 : Tue May 27 2025 06:37:16 GMT+0530 (India Standard Time)
+2025-05-27T06:37:16: PM2 log: PM2 version          : 6.0.6
+2025-05-27T06:37:16: PM2 log: Node.js version      : 18.20.8
+2025-05-27T06:37:16: PM2 log: Current arch         : arm64
+2025-05-27T06:37:16: PM2 log: PM2 home             : /home/UbiqCM4/.pm2
+2025-05-27T06:37:16: PM2 log: PM2 PID file         : /home/UbiqCM4/.pm2/pm2.pid
+2025-05-27T06:37:16: PM2 log: RPC socket file      : /home/UbiqCM4/.pm2/rpc.sock
+2025-05-27T06:37:16: PM2 log: BUS socket file      : /home/UbiqCM4/.pm2/pub.sock
+2025-05-27T06:37:16: PM2 log: Application log path : /home/UbiqCM4/.pm2/logs
+2025-05-27T06:37:16: PM2 log: Worker Interval      : 30000
+2025-05-27T06:37:16: PM2 log: Process dump file    : /home/UbiqCM4/.pm2/dump.pm2
+2025-05-27T06:37:16: PM2 log: Concurrent actions   : 2
+2025-05-27T06:37:16: PM2 log: SIGTERM timeout      : 1600
+2025-05-27T06:37:16: PM2 log: Runtime Binary       : /usr/bin/node
+2025-05-27T06:37:16: PM2 log: ===============================================================================
+2025-05-27T06:37:16: PM2 log: App [myserver:0] starting in -fork mode-
+2025-05-27T06:37:16: PM2 log: App [static-server:1] starting in -fork mode-
+2025-05-27T06:37:16: PM2 log: App [myserver:0] online
+2025-05-27T06:37:16: PM2 log: App [static-server:1] online
+2025-05-27T06:38:16: PM2 log: ===============================================================================
+2025-05-27T06:38:16: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2025-05-27T06:38:16: PM2 log: Time                 : Tue May 27 2025 06:38:16 GMT+0530 (India Standard Time)
+2025-05-27T06:38:16: PM2 log: PM2 version          : 6.0.6
+2025-05-27T06:38:16: PM2 log: Node.js version      : 18.20.8
+2025-05-27T06:38:16: PM2 log: Current arch         : arm64
+2025-05-27T06:38:16: PM2 log: PM2 home             : /home/UbiqCM4/.pm2
+2025-05-27T06:38:16: PM2 log: PM2 PID file         : /home/UbiqCM4/.pm2/pm2.pid
+2025-05-27T06:38:16: PM2 log: RPC socket file      : /home/UbiqCM4/.pm2/rpc.sock
+2025-05-27T06:38:16: PM2 log: BUS socket file      : /home/UbiqCM4/.pm2/pub.sock
+2025-05-27T06:38:16: PM2 log: Application log path : /home/UbiqCM4/.pm2/logs
+2025-05-27T06:38:16: PM2 log: Worker Interval      : 30000
+2025-05-27T06:38:16: PM2 log: Process dump file    : /home/UbiqCM4/.pm2/dump.pm2
+2025-05-27T06:38:16: PM2 log: Concurrent actions   : 2
+2025-05-27T06:38:16: PM2 log: SIGTERM timeout      : 1600
+2025-05-27T06:38:16: PM2 log: Runtime Binary       : /usr/bin/node
+2025-05-27T06:38:16: PM2 log: ===============================================================================
+2025-05-27T06:38:16: PM2 log: App [myserver:0] starting in -fork mode-
+2025-05-27T06:38:16: PM2 log: App [static-server:1] starting in -fork mode-
+2025-05-27T06:38:16: PM2 log: App [myserver:0] online
+2025-05-27T06:38:16: PM2 log: App [static-server:1] online
+2025-05-27T10:18:30: PM2 log: Stopping app:myserver id:0
+2025-05-27T10:18:30: PM2 log: Stopping app:static-server id:1
+2025-05-27T10:18:30: PM2 log: App [myserver:0] exited with code [0] via signal [SIGINT]
+2025-05-27T10:18:31: PM2 log: App [static-server:1] exited with code [0] via signal [SIGINT]
+2025-05-27T10:18:31: PM2 log: pid=637 msg=process killed
+2025-05-27T10:18:31: PM2 log: pid=643 msg=process killed
+2025-05-27T10:18:31: PM2 log: PM2 successfully stopped
+2025-05-27T10:18:35: PM2 log: ===============================================================================
+2025-05-27T10:18:35: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2025-05-27T10:18:35: PM2 log: Time                 : Tue May 27 2025 10:18:35 GMT+0530 (India Standard Time)
+2025-05-27T10:18:35: PM2 log: PM2 version          : 6.0.6
+2025-05-27T10:18:35: PM2 log: Node.js version      : 18.20.8
+2025-05-27T10:18:35: PM2 log: Current arch         : arm64
+2025-05-27T10:18:35: PM2 log: PM2 home             : /home/UbiqCM4/.pm2
+2025-05-27T10:18:35: PM2 log: PM2 PID file         : /home/UbiqCM4/.pm2/pm2.pid
+2025-05-27T10:18:35: PM2 log: RPC socket file      : /home/UbiqCM4/.pm2/rpc.sock
+2025-05-27T10:18:35: PM2 log: BUS socket file      : /home/UbiqCM4/.pm2/pub.sock
+2025-05-27T10:18:35: PM2 log: Application log path : /home/UbiqCM4/.pm2/logs
+2025-05-27T10:18:35: PM2 log: Worker Interval      : 30000
+2025-05-27T10:18:35: PM2 log: Process dump file    : /home/UbiqCM4/.pm2/dump.pm2
+2025-05-27T10:18:35: PM2 log: Concurrent actions   : 2
+2025-05-27T10:18:35: PM2 log: SIGTERM timeout      : 1600
+2025-05-27T10:18:35: PM2 log: Runtime Binary       : /usr/bin/node
+2025-05-27T10:18:35: PM2 log: ===============================================================================
+2025-05-27T10:18:35: PM2 log: App [myserver:0] starting in -fork mode-
+2025-05-27T10:18:35: PM2 log: App [static-server:1] starting in -fork mode-
+2025-05-27T10:18:35: PM2 log: App [myserver:0] online
+2025-05-27T10:18:35: PM2 log: App [static-server:1] online
+2025-05-27T10:19:35: PM2 log: ===============================================================================
+2025-05-27T10:19:35: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2025-05-27T10:19:35: PM2 log: Time                 : Tue May 27 2025 10:19:35 GMT+0530 (India Standard Time)
+2025-05-27T10:19:35: PM2 log: PM2 version          : 6.0.6
+2025-05-27T10:19:35: PM2 log: Node.js version      : 18.20.8
+2025-05-27T10:19:35: PM2 log: Current arch         : arm64
+2025-05-27T10:19:35: PM2 log: PM2 home             : /home/UbiqCM4/.pm2
+2025-05-27T10:19:35: PM2 log: PM2 PID file         : /home/UbiqCM4/.pm2/pm2.pid
+2025-05-27T10:19:35: PM2 log: RPC socket file      : /home/UbiqCM4/.pm2/rpc.sock
+2025-05-27T10:19:35: PM2 log: BUS socket file      : /home/UbiqCM4/.pm2/pub.sock
+2025-05-27T10:19:35: PM2 log: Application log path : /home/UbiqCM4/.pm2/logs
+2025-05-27T10:19:35: PM2 log: Worker Interval      : 30000
+2025-05-27T10:19:35: PM2 log: Process dump file    : /home/UbiqCM4/.pm2/dump.pm2
+2025-05-27T10:19:35: PM2 log: Concurrent actions   : 2
+2025-05-27T10:19:35: PM2 log: SIGTERM timeout      : 1600
+2025-05-27T10:19:35: PM2 log: Runtime Binary       : /usr/bin/node
+2025-05-27T10:19:35: PM2 log: ===============================================================================
+2025-05-27T10:19:35: PM2 log: App [myserver:0] starting in -fork mode-
+2025-05-27T10:19:35: PM2 log: App [static-server:1] starting in -fork mode-
+2025-05-27T10:19:35: PM2 log: App [myserver:0] online
+2025-05-27T10:19:35: PM2 log: App [static-server:1] online
+2025-05-27T10:27:29: PM2 log: Stopping app:myserver id:0
+2025-05-27T10:27:29: PM2 log: Stopping app:static-server id:1
+2025-05-27T10:27:29: PM2 log: App [static-server:1] exited with code [0] via signal [SIGINT]
+2025-05-27T10:27:29: PM2 log: pid=684 msg=failed to kill - retrying in 100ms
+2025-05-27T10:27:29: PM2 log: pid=690 msg=process killed
+2025-05-27T10:27:29: PM2 log: pid=684 msg=failed to kill - retrying in 100ms
+2025-05-27T10:27:29: PM2 log: App [myserver:0] exited with code [0] via signal [SIGINT]
+2025-05-27T10:27:29: PM2 log: pid=684 msg=process killed
+2025-05-27T10:27:29: PM2 log: PM2 successfully stopped
+2025-05-27T10:27:34: PM2 log: ===============================================================================
+2025-05-27T10:27:34: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2025-05-27T10:27:34: PM2 log: Time                 : Tue May 27 2025 10:27:34 GMT+0530 (India Standard Time)
+2025-05-27T10:27:34: PM2 log: PM2 version          : 6.0.6
+2025-05-27T10:27:34: PM2 log: Node.js version      : 18.20.8
+2025-05-27T10:27:34: PM2 log: Current arch         : arm64
+2025-05-27T10:27:34: PM2 log: PM2 home             : /home/UbiqCM4/.pm2
+2025-05-27T10:27:34: PM2 log: PM2 PID file         : /home/UbiqCM4/.pm2/pm2.pid
+2025-05-27T10:27:34: PM2 log: RPC socket file      : /home/UbiqCM4/.pm2/rpc.sock
+2025-05-27T10:27:34: PM2 log: BUS socket file      : /home/UbiqCM4/.pm2/pub.sock
+2025-05-27T10:27:34: PM2 log: Application log path : /home/UbiqCM4/.pm2/logs
+2025-05-27T10:27:34: PM2 log: Worker Interval      : 30000
+2025-05-27T10:27:34: PM2 log: Process dump file    : /home/UbiqCM4/.pm2/dump.pm2
+2025-05-27T10:27:34: PM2 log: Concurrent actions   : 2
+2025-05-27T10:27:34: PM2 log: SIGTERM timeout      : 1600
+2025-05-27T10:27:34: PM2 log: Runtime Binary       : /usr/bin/node
+2025-05-27T10:27:34: PM2 log: ===============================================================================
+2025-05-27T10:27:34: PM2 log: App [myserver:0] starting in -fork mode-
+2025-05-27T10:27:34: PM2 log: App [static-server:1] starting in -fork mode-
+2025-05-27T10:27:34: PM2 log: App [myserver:0] online
+2025-05-27T10:27:34: PM2 log: App [static-server:1] online
+2025-05-27T10:29:35: PM2 log: ===============================================================================
+2025-05-27T10:29:35: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2025-05-27T10:29:35: PM2 log: Time                 : Tue May 27 2025 10:29:35 GMT+0530 (India Standard Time)
+2025-05-27T10:29:35: PM2 log: PM2 version          : 6.0.6
+2025-05-27T10:29:35: PM2 log: Node.js version      : 18.20.8
+2025-05-27T10:29:35: PM2 log: Current arch         : arm64
+2025-05-27T10:29:35: PM2 log: PM2 home             : /home/UbiqCM4/.pm2
+2025-05-27T10:29:35: PM2 log: PM2 PID file         : /home/UbiqCM4/.pm2/pm2.pid
+2025-05-27T10:29:35: PM2 log: RPC socket file      : /home/UbiqCM4/.pm2/rpc.sock
+2025-05-27T10:29:35: PM2 log: BUS socket file      : /home/UbiqCM4/.pm2/pub.sock
+2025-05-27T10:29:35: PM2 log: Application log path : /home/UbiqCM4/.pm2/logs
+2025-05-27T10:29:35: PM2 log: Worker Interval      : 30000
+2025-05-27T10:29:35: PM2 log: Process dump file    : /home/UbiqCM4/.pm2/dump.pm2
+2025-05-27T10:29:35: PM2 log: Concurrent actions   : 2
+2025-05-27T10:29:35: PM2 log: SIGTERM timeout      : 1600
+2025-05-27T10:29:35: PM2 log: Runtime Binary       : /usr/bin/node
+2025-05-27T10:29:35: PM2 log: ===============================================================================
+2025-05-27T10:29:35: PM2 log: App [myserver:0] starting in -fork mode-
+2025-05-27T10:29:35: PM2 log: App [static-server:1] starting in -fork mode-
+2025-05-27T10:29:35: PM2 log: App [myserver:0] online
+2025-05-27T10:29:35: PM2 log: App [static-server:1] online
+2025-05-27T14:19:28: PM2 log: ===============================================================================
+2025-05-27T14:19:28: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2025-05-27T14:19:29: PM2 log: Time                 : Tue May 27 2025 14:19:28 GMT+0530 (India Standard Time)
+2025-05-27T14:19:29: PM2 log: PM2 version          : 6.0.6
+2025-05-27T14:19:29: PM2 log: Node.js version      : 18.20.8
+2025-05-27T14:19:29: PM2 log: Current arch         : arm64
+2025-05-27T14:19:29: PM2 log: PM2 home             : /home/UbiqCM4/.pm2
+2025-05-27T14:19:29: PM2 log: PM2 PID file         : /home/UbiqCM4/.pm2/pm2.pid
+2025-05-27T14:19:29: PM2 log: RPC socket file      : /home/UbiqCM4/.pm2/rpc.sock
+2025-05-27T14:19:29: PM2 log: BUS socket file      : /home/UbiqCM4/.pm2/pub.sock
+2025-05-27T14:19:29: PM2 log: Application log path : /home/UbiqCM4/.pm2/logs
+2025-05-27T14:19:29: PM2 log: Worker Interval      : 30000
+2025-05-27T14:19:29: PM2 log: Process dump file    : /home/UbiqCM4/.pm2/dump.pm2
+2025-05-27T14:19:29: PM2 log: Concurrent actions   : 2
+2025-05-27T14:19:29: PM2 log: SIGTERM timeout      : 1600
+2025-05-27T14:19:29: PM2 log: Runtime Binary       : /usr/bin/node
+2025-05-27T14:19:29: PM2 log: ===============================================================================
+2025-05-27T14:19:29: PM2 log: App [myserver:0] starting in -fork mode-
+2025-05-27T14:19:29: PM2 log: App [static-server:1] starting in -fork mode-
+2025-05-27T14:19:29: PM2 log: App [myserver:0] online
+2025-05-27T14:19:29: PM2 log: App [static-server:1] online
+2025-05-27T14:20:29: PM2 log: ===============================================================================
+2025-05-27T14:20:29: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2025-05-27T14:20:29: PM2 log: Time                 : Tue May 27 2025 14:20:29 GMT+0530 (India Standard Time)
+2025-05-27T14:20:29: PM2 log: PM2 version          : 6.0.6
+2025-05-27T14:20:29: PM2 log: Node.js version      : 18.20.8
+2025-05-27T14:20:29: PM2 log: Current arch         : arm64
+2025-05-27T14:20:29: PM2 log: PM2 home             : /home/UbiqCM4/.pm2
+2025-05-27T14:20:29: PM2 log: PM2 PID file         : /home/UbiqCM4/.pm2/pm2.pid
+2025-05-27T14:20:29: PM2 log: RPC socket file      : /home/UbiqCM4/.pm2/rpc.sock
+2025-05-27T14:20:29: PM2 log: BUS socket file      : /home/UbiqCM4/.pm2/pub.sock
+2025-05-27T14:20:29: PM2 log: Application log path : /home/UbiqCM4/.pm2/logs
+2025-05-27T14:20:29: PM2 log: Worker Interval      : 30000
+2025-05-27T14:20:29: PM2 log: Process dump file    : /home/UbiqCM4/.pm2/dump.pm2
+2025-05-27T14:20:29: PM2 log: Concurrent actions   : 2
+2025-05-27T14:20:29: PM2 log: SIGTERM timeout      : 1600
+2025-05-27T14:20:29: PM2 log: Runtime Binary       : /usr/bin/node
+2025-05-27T14:20:29: PM2 log: ===============================================================================
+2025-05-27T14:20:29: PM2 log: App [myserver:0] starting in -fork mode-
+2025-05-27T14:20:29: PM2 log: App [static-server:1] starting in -fork mode-
+2025-05-27T14:20:29: PM2 log: App [myserver:0] online
+2025-05-27T14:20:29: PM2 log: App [static-server:1] online
+2025-05-28T16:18:21: PM2 log: ===============================================================================
+2025-05-28T16:18:21: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2025-05-28T16:18:21: PM2 log: Time                 : Wed May 28 2025 16:18:21 GMT+0530 (India Standard Time)
+2025-05-28T16:18:21: PM2 log: PM2 version          : 6.0.6
+2025-05-28T16:18:21: PM2 log: Node.js version      : 18.20.8
+2025-05-28T16:18:21: PM2 log: Current arch         : arm64
+2025-05-28T16:18:21: PM2 log: PM2 home             : /home/UbiqCM4/.pm2
+2025-05-28T16:18:21: PM2 log: PM2 PID file         : /home/UbiqCM4/.pm2/pm2.pid
+2025-05-28T16:18:21: PM2 log: RPC socket file      : /home/UbiqCM4/.pm2/rpc.sock
+2025-05-28T16:18:21: PM2 log: BUS socket file      : /home/UbiqCM4/.pm2/pub.sock
+2025-05-28T16:18:21: PM2 log: Application log path : /home/UbiqCM4/.pm2/logs
+2025-05-28T16:18:21: PM2 log: Worker Interval      : 30000
+2025-05-28T16:18:21: PM2 log: Process dump file    : /home/UbiqCM4/.pm2/dump.pm2
+2025-05-28T16:18:21: PM2 log: Concurrent actions   : 2
+2025-05-28T16:18:21: PM2 log: SIGTERM timeout      : 1600
+2025-05-28T16:18:21: PM2 log: Runtime Binary       : /usr/bin/node
+2025-05-28T16:18:21: PM2 log: ===============================================================================
+2025-05-28T16:18:21: PM2 log: App [myserver:0] starting in -fork mode-
+2025-05-28T16:18:21: PM2 log: App [static-server:1] starting in -fork mode-
+2025-05-28T16:18:21: PM2 log: App [myserver:0] online
+2025-05-28T16:18:21: PM2 log: App [static-server:1] online

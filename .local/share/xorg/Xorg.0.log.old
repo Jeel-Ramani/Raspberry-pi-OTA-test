@@ -1,0 +1,240 @@
+[    10.359] 
+X.Org X Server 1.21.1.7
+X Protocol Version 11, Revision 0
+[    10.359] Current Operating System: Linux UbiqCM4 6.12.25+rpt-rpi-v8 #1 SMP PREEMPT Debian 1:6.12.25-1+rpt1 (2025-04-30) aarch64
+[    10.359] Kernel command line: coherent_pool=1M 8250.nr_uarts=1 snd_bcm2835.enable_headphones=0 cgroup_disable=memory numa_policy=interleave snd_bcm2835.enable_hdmi=1 snd_bcm2835.enable_hdmi=0  smsc95xx.macaddr=2C:CF:67:A1:14:B0 vc_mem.mem_base=0x3ec00000 vc_mem.mem_size=0x40000000  console=ttyAMA0,115200 console=tty3 root=PARTUUID=08d6022f-02 rootfstype=ext4 fsck.repair=yes rootwait cfg80211.ieee80211_regdom=IN splash quiet plymouth.ignore-serial-consoles logo.nologo vt.global_cursor_default=0
+[    10.359] xorg-server 2:21.1.7-3+rpt3+deb12u9 (https://www.debian.org/support) 
+[    10.359] Current version of pixman: 0.44.0
+[    10.359] 	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+[    10.359] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[    10.359] (==) Log file: "/home/UbiqCM4/.local/share/xorg/Xorg.0.log", Time: Tue May 27 14:20:32 2025
+[    10.364] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[    10.366] (==) No Layout section.  Using the first Screen section.
+[    10.366] (==) No screen section available. Using defaults.
+[    10.366] (**) |-->Screen "Default Screen Section" (0)
+[    10.366] (**) |   |-->Monitor "<default monitor>"
+[    10.367] (==) No monitor specified for screen "Default Screen Section".
+	Using a default monitor configuration.
+[    10.367] (**) Option "Debug" "dmabuf_capable"
+[    10.367] (==) Automatically adding devices
+[    10.367] (==) Automatically enabling devices
+[    10.367] (==) Automatically adding GPU devices
+[    10.367] (==) Automatically binding GPU devices
+[    10.369] (==) Max clients allowed: 256, resource mask: 0x1fffff
+[    10.369] (WW) The directory "/usr/share/fonts/X11/misc" does not exist.
+[    10.369] 	Entry deleted from font path.
+[    10.369] (WW) The directory "/usr/share/fonts/X11/cyrillic" does not exist.
+[    10.369] 	Entry deleted from font path.
+[    10.369] (WW) The directory "/usr/share/fonts/X11/100dpi/" does not exist.
+[    10.369] 	Entry deleted from font path.
+[    10.370] (WW) The directory "/usr/share/fonts/X11/75dpi/" does not exist.
+[    10.370] 	Entry deleted from font path.
+[    10.370] (WW) The directory "/usr/share/fonts/X11/100dpi" does not exist.
+[    10.370] 	Entry deleted from font path.
+[    10.370] (WW) The directory "/usr/share/fonts/X11/75dpi" does not exist.
+[    10.370] 	Entry deleted from font path.
+[    10.370] (==) FontPath set to:
+	/usr/share/fonts/X11/Type1,
+	built-ins
+[    10.370] (==) ModulePath set to "/usr/lib/xorg/modules"
+[    10.370] (II) The server relies on udev to provide the list of input devices.
+	If no devices become available, reconfigure udev or disable AutoAddDevices.
+[    10.370] (II) Loader magic: 0x5577330ef0
+[    10.370] (II) Module ABI versions:
+[    10.370] 	X.Org ANSI C Emulation: 0.4
+[    10.370] 	X.Org Video Driver: 25.2
+[    10.370] 	X.Org XInput driver : 24.4
+[    10.370] 	X.Org Server Extension : 10.0
+[    10.371] (++) using VT number 1
+
+[    10.374] (II) systemd-logind: took control of session /org/freedesktop/login1/session/_31
+[    10.376] (II) xfree86: Adding drm device (/dev/dri/card0)
+[    10.376] (II) Platform probe for /sys/devices/platform/gpu/drm/card0
+[    10.377] (II) systemd-logind: got fd for /dev/dri/card0 226:0 fd 13 paused 0
+[    10.378] (II) xfree86: Adding drm device (/dev/dri/card1)
+[    10.378] (II) Platform probe for /sys/devices/platform/v3dbus/fec00000.v3d/drm/card1
+[    10.379] (II) systemd-logind: got fd for /dev/dri/card1 226:1 fd 14 paused 0
+[    10.379] (II) no primary bus or device found
+[    10.379] 	falling back to /sys/devices/platform/gpu/drm/card0
+[    10.379] (II) LoadModule: "glx"
+[    10.381] (II) Loading /usr/lib/xorg/modules/extensions/libglx.so
+[    10.404] (II) Module glx: vendor="X.Org Foundation"
+[    10.404] 	compiled for 1.21.1.7, module version = 1.0.0
+[    10.404] 	ABI class: X.Org Server Extension, version 10.0
+[    10.404] (==) Matched modesetting as autoconfigured driver 0
+[    10.404] (==) Matched fbdev as autoconfigured driver 1
+[    10.404] (==) Assigned the driver to the xf86ConfigLayout
+[    10.404] (II) LoadModule: "modesetting"
+[    10.405] (II) Loading /usr/lib/xorg/modules/drivers/modesetting_drv.so
+[    11.218] (II) Module modesetting: vendor="X.Org Foundation"
+[    11.218] 	compiled for 1.21.1.7, module version = 1.21.1
+[    11.218] 	Module class: X.Org Video Driver
+[    11.218] 	ABI class: X.Org Video Driver, version 25.2
+[    11.218] (II) LoadModule: "fbdev"
+[    11.219] (II) Loading /usr/lib/xorg/modules/drivers/fbdev_drv.so
+[    11.220] (II) Module fbdev: vendor="X.Org Foundation"
+[    11.220] 	compiled for 1.21.1.3, module version = 0.5.0
+[    11.220] 	Module class: X.Org Video Driver
+[    11.220] 	ABI class: X.Org Video Driver, version 25.2
+[    11.220] (II) modesetting: Driver for Modesetting Kernel Drivers: kms
+[    11.220] (II) FBDEV: driver for framebuffer: fbdev
+[    11.220] (II) modeset(0): using drv /dev/dri/card0
+[    11.220] (WW) Falling back to old probe method for fbdev
+[    11.220] (II) Loading sub module "fbdevhw"
+[    11.220] (II) LoadModule: "fbdevhw"
+[    11.220] (II) Loading /usr/lib/xorg/modules/libfbdevhw.so
+[    11.221] (II) Module fbdevhw: vendor="X.Org Foundation"
+[    11.221] 	compiled for 1.21.1.7, module version = 0.0.2
+[    11.221] 	ABI class: X.Org Video Driver, version 25.2
+[    11.221] (EE) open /dev/fb0: No such file or directory
+[    11.222] (WW) VGA arbiter: cannot open kernel arbiter, no multi-card support
+[    11.222] (II) modeset(0): Creating default Display subsection in Screen section
+	"Default Screen Section" for depth/fbbpp 24/32
+[    11.222] (==) modeset(0): Depth 24, (==) framebuffer bpp 32
+[    11.222] (==) modeset(0): RGB weight 888
+[    11.222] (==) modeset(0): Default visual is TrueColor
+[    11.222] (II) Loading sub module "glamoregl"
+[    11.222] (II) LoadModule: "glamoregl"
+[    11.222] (II) Loading /usr/lib/xorg/modules/libglamoregl.so
+[    11.246] (II) Module glamoregl: vendor="X.Org Foundation"
+[    11.246] 	compiled for 1.21.1.7, module version = 1.0.1
+[    11.246] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[    11.370] (II) modeset(0): glamor X acceleration enabled on V3D 4.2.14.0
+[    11.370] (II) modeset(0): glamor initialized
+[    11.370] (==) modeset(0): VariableRefresh: disabled
+[    11.370] (==) modeset(0): AsyncFlipSecondaries: disabled
+[    11.371] (II) modeset(0): Output HDMI-1 has no monitor section
+[    11.371] (II) modeset(0): Output HDMI-2 has no monitor section
+[    11.403] (II) modeset(0): EDID for output HDMI-1
+[    11.403] (II) modeset(0): EDID for output HDMI-2
+[    11.403] (II) modeset(0): Output HDMI-1 disconnected
+[    11.403] (II) modeset(0): Output HDMI-2 disconnected
+[    11.403] (WW) modeset(0): No outputs definitely connected, trying again...
+[    11.403] (II) modeset(0): Output HDMI-1 disconnected
+[    11.403] (II) modeset(0): Output HDMI-2 disconnected
+[    11.403] (WW) modeset(0): Unable to find connected outputs - setting 1024x768 initial framebuffer
+[    11.403] (==) modeset(0): Using gamma correction (1.0, 1.0, 1.0)
+[    11.403] (==) modeset(0): DPI set to (96, 96)
+[    11.403] (II) Loading sub module "fb"
+[    11.403] (II) LoadModule: "fb"
+[    11.403] (II) Module "fb" already built-in
+[    11.403] (II) UnloadModule: "fbdev"
+[    11.403] (II) Unloading fbdev
+[    11.404] (II) UnloadSubModule: "fbdevhw"
+[    11.404] (II) Unloading fbdevhw
+[    11.511] (==) modeset(0): Backing store enabled
+[    11.511] (==) modeset(0): Silken mouse enabled
+[    11.583] (II) modeset(0): Initializing kms color map for depth 24, 8 bpc.
+[    11.583] (==) modeset(0): DPMS enabled
+[    11.583] (II) modeset(0): [DRI2] Setup complete
+[    11.583] (II) modeset(0): [DRI2]   DRI driver: vc4
+[    11.583] (II) modeset(0): [DRI2]   VDPAU driver: vc4
+[    11.583] (II) Initializing extension Generic Event Extension
+[    11.584] (II) Initializing extension SHAPE
+[    11.584] (II) Initializing extension MIT-SHM
+[    11.584] (II) Initializing extension XInputExtension
+[    11.586] (II) Initializing extension XTEST
+[    11.586] (II) Initializing extension BIG-REQUESTS
+[    11.586] (II) Initializing extension SYNC
+[    11.586] (II) Initializing extension XKEYBOARD
+[    11.587] (II) Initializing extension XC-MISC
+[    11.587] (II) Initializing extension SECURITY
+[    11.587] (II) Initializing extension XFIXES
+[    11.587] (II) Initializing extension RENDER
+[    11.588] (II) Initializing extension RANDR
+[    11.588] (II) Initializing extension COMPOSITE
+[    11.589] (II) Initializing extension DAMAGE
+[    11.589] (II) Initializing extension MIT-SCREEN-SAVER
+[    11.589] (II) Initializing extension DOUBLE-BUFFER
+[    11.589] (II) Initializing extension RECORD
+[    11.590] (II) Initializing extension DPMS
+[    11.590] (II) Initializing extension Present
+[    11.590] (II) Initializing extension DRI3
+[    11.590] (II) Initializing extension X-Resource
+[    11.591] (II) Initializing extension XVideo
+[    11.591] (II) Initializing extension XVideo-MotionCompensation
+[    11.591] (II) Initializing extension SELinux
+[    11.591] (II) SELinux: Disabled on system
+[    11.591] (II) Initializing extension GLX
+[    11.622] (II) AIGLX: Loaded and initialized vc4
+[    11.622] (II) GLX: Initialized DRI2 GL provider for screen 0
+[    11.622] (II) Initializing extension XFree86-VidModeExtension
+[    11.622] (II) Initializing extension XFree86-DGA
+[    11.622] (II) Initializing extension XFree86-DRI
+[    11.622] (II) Initializing extension DRI2
+[    11.627] (II) modeset(0): Damage tracking initialized
+[    11.741] (II) config/udev: Adding input device vc4-hdmi-0 (/dev/input/event0)
+[    11.741] (**) vc4-hdmi-0: Applying InputClass "libinput keyboard catchall"
+[    11.742] (II) LoadModule: "libinput"
+[    11.742] (II) Loading /usr/lib/xorg/modules/input/libinput_drv.so
+[    11.752] (II) Module libinput: vendor="X.Org Foundation"
+[    11.752] 	compiled for 1.21.1.3, module version = 1.2.1
+[    11.752] 	Module class: X.Org XInput Driver
+[    11.752] 	ABI class: X.Org XInput driver, version 24.4
+[    11.752] (II) Using input driver 'libinput' for 'vc4-hdmi-0'
+[    11.754] (II) systemd-logind: got fd for /dev/input/event0 13:64 fd 26 paused 0
+[    11.754] (**) vc4-hdmi-0: always reports core events
+[    11.754] (**) Option "Device" "/dev/input/event0"
+[    11.766] (II) event0  - vc4-hdmi-0: is tagged by udev as: Keyboard Pointingstick
+[    11.766] (II) event0  - vc4-hdmi-0: device is a pointer
+[    11.766] (II) event0  - vc4-hdmi-0: device is a keyboard
+[    11.767] (II) event0  - vc4-hdmi-0: device removed
+[    11.767] (II) libinput: vc4-hdmi-0: needs a virtual subdevice
+[    11.767] (**) Option "config_info" "udev:/sys/devices/platform/soc/fef00700.hdmi/rc/rc0/input0/event0"
+[    11.767] (II) XINPUT: Adding extended input device "vc4-hdmi-0" (type: MOUSE, id 6)
+[    11.767] (**) Option "AccelerationScheme" "none"
+[    11.767] (**) vc4-hdmi-0: (accel) selected scheme none/0
+[    11.767] (**) vc4-hdmi-0: (accel) acceleration factor: 2.000
+[    11.767] (**) vc4-hdmi-0: (accel) acceleration threshold: 4
+[    11.769] (II) event0  - vc4-hdmi-0: is tagged by udev as: Keyboard Pointingstick
+[    11.769] (II) event0  - vc4-hdmi-0: device is a pointer
+[    11.770] (II) event0  - vc4-hdmi-0: device is a keyboard
+[    11.771] (II) config/udev: Adding input device vc4-hdmi-0 HDMI Jack (/dev/input/event1)
+[    11.771] (II) No input driver specified, ignoring this device.
+[    11.771] (II) This device may have been added with another device file.
+[    11.772] (II) config/udev: Adding input device vc4-hdmi-1 (/dev/input/event2)
+[    11.772] (**) vc4-hdmi-1: Applying InputClass "libinput keyboard catchall"
+[    11.772] (II) Using input driver 'libinput' for 'vc4-hdmi-1'
+[    11.773] (II) systemd-logind: got fd for /dev/input/event2 13:66 fd 29 paused 0
+[    11.773] (**) vc4-hdmi-1: always reports core events
+[    11.773] (**) Option "Device" "/dev/input/event2"
+[    11.775] (II) event2  - vc4-hdmi-1: is tagged by udev as: Keyboard Pointingstick
+[    11.776] (II) event2  - vc4-hdmi-1: device is a pointer
+[    11.776] (II) event2  - vc4-hdmi-1: device is a keyboard
+[    11.776] (II) event2  - vc4-hdmi-1: device removed
+[    11.776] (II) libinput: vc4-hdmi-1: needs a virtual subdevice
+[    11.777] (**) Option "config_info" "udev:/sys/devices/platform/soc/fef05700.hdmi/rc/rc1/input2/event2"
+[    11.777] (II) XINPUT: Adding extended input device "vc4-hdmi-1" (type: MOUSE, id 7)
+[    11.777] (**) Option "AccelerationScheme" "none"
+[    11.777] (**) vc4-hdmi-1: (accel) selected scheme none/0
+[    11.777] (**) vc4-hdmi-1: (accel) acceleration factor: 2.000
+[    11.777] (**) vc4-hdmi-1: (accel) acceleration threshold: 4
+[    11.779] (II) event2  - vc4-hdmi-1: is tagged by udev as: Keyboard Pointingstick
+[    11.779] (II) event2  - vc4-hdmi-1: device is a pointer
+[    11.779] (II) event2  - vc4-hdmi-1: device is a keyboard
+[    11.780] (II) config/udev: Adding input device vc4-hdmi-1 HDMI Jack (/dev/input/event3)
+[    11.780] (II) No input driver specified, ignoring this device.
+[    11.780] (II) This device may have been added with another device file.
+[    11.789] (**) vc4-hdmi-0: Applying InputClass "libinput keyboard catchall"
+[    11.789] (II) Using input driver 'libinput' for 'vc4-hdmi-0'
+[    11.789] (II) systemd-logind: returning pre-existing fd for /dev/input/event0 13:64
+[    11.789] (**) vc4-hdmi-0: always reports core events
+[    11.789] (**) Option "Device" "/dev/input/event0"
+[    11.789] (II) libinput: vc4-hdmi-0: is a virtual subdevice
+[    11.789] (**) Option "config_info" "udev:/sys/devices/platform/soc/fef00700.hdmi/rc/rc0/input0/event0"
+[    11.789] (II) XINPUT: Adding extended input device "vc4-hdmi-0" (type: KEYBOARD, id 8)
+[    11.789] (**) Option "xkb_model" "pc105"
+[    11.789] (**) Option "xkb_layout" "us"
+[    11.790] (**) vc4-hdmi-1: Applying InputClass "libinput keyboard catchall"
+[    11.790] (II) Using input driver 'libinput' for 'vc4-hdmi-1'
+[    11.790] (II) systemd-logind: returning pre-existing fd for /dev/input/event2 13:66
+[    11.790] (**) vc4-hdmi-1: always reports core events
+[    11.790] (**) Option "Device" "/dev/input/event2"
+[    11.790] (II) libinput: vc4-hdmi-1: is a virtual subdevice
+[    11.790] (**) Option "config_info" "udev:/sys/devices/platform/soc/fef05700.hdmi/rc/rc1/input2/event2"
+[    11.790] (II) XINPUT: Adding extended input device "vc4-hdmi-1" (type: KEYBOARD, id 9)
+[    11.790] (**) Option "xkb_model" "pc105"
+[    11.790] (**) Option "xkb_layout" "us"

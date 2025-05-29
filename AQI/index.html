@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AQI Monitor Dashboard</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="header">
+            <h2>AQI Monitor Dashboard</h2>
+            <button id="refresh-btn" class="btn-primary btn-rf">
+                <span class="refresh-icon">↻</span> Refresh
+            </button>
+        </div>
+        <div id="widget-container">
+            <!-- AQI Card will be inserted dynamically here -->
+        </div>
+        <div id="graph-container">
+            <div class="graph-row">
+                <div class="graph-item"><canvas id="tempChart"></canvas></div>
+                <div class="graph-item"><canvas id="humidityChart"></canvas></div>
+                <div class="graph-item"><canvas id="pm25Chart"></canvas></div>
+                <div class="graph-item"><canvas id="pm10Chart"></canvas></div>
+            </div>
+        </div>
+        <div id="error-message" style="display: none; color: red; text-align: center; padding: 10px"></div>
+        <div id="loading" class="loading-overlay" style="display: none">
+            <div class="spinner-custom"></div>
+        </div>
+    </div>
+    <script src="chart.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
